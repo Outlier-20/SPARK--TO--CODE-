@@ -41,9 +41,10 @@ An enterprise-grade relational database schema designed for an **LLM Security Pl
 
 ## 📐 Database Architecture Diagram (ERD)
 
-<p align="center">
-  <img src="LLM.png" alt="LLM Security Database ERD" width="85%">
-</p>
+| Initial Architecture (Before) | Updated Architecture (Current) |
+| :---: | :---: |
+| <img src="LLM-before.png" width="100%" alt="Initial LLM Security ERD"> | <img src="LLM.png" width="100%" alt="Updated LLM Security ERD"> |
+| *Note: Initial proposed data model for prompt monitoring.* | *Note: Updated schema incorporating MCP servers and refined telemetry attributes.* |
 
 ---
 
