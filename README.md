@@ -6,9 +6,10 @@ A centralized database schema designed to support **Oman's Vision 2040** digital
 
 ## 📐 Entity-Relationship Diagram (ERD)
 
-<p align="center">
-  <img src="vessel-tracking-erd.png" alt="Maritime Rerouting ERD" width="90%">
-</p>
+| Initial Draft (Before Revisions) | Finalized ERD Model (Current) |
+| :---: | :---: |
+| <img src="Hormuz.jpg" width="100%" alt="Initial ERD Draft"> | <img src="vessel-tracking-erd.png" width="100%" alt="Final ERD Model"> |
+| *Note: Initial proposed design prior to structural attribute and cardinality fixes.* | *Note: Refined and optimized schema ready for database implementation.* |
 
 ---
 
@@ -28,5 +29,5 @@ A centralized database schema designed to support **Oman's Vision 2040** digital
 | **`SHIP`** | `IMO Number` | Stores vessel positioning (`latitude`, `longitude`, `speed`), navigation movement, and identification (`MMSI`, `VesselType`). |
 | **`Port`** | `Port Name` | Captures location types (*Outside Strait* vs. *Inside Gulf*) and capacity thresholds (`Operational Capacity`, `Handling Capacity`). |
 | **`Trip`** | `Trip_ID` | Tracks origin/destination routes via `Bound_To` and emergency diversions via `Diverted_To`. |
-| **`Weather`** | `Weather_ID` | Monitors sea conditions associated with ports via the `HAS` relationship to ensure safe docking. |
+| **`Weather`** | `Weather_ID` | Monitors sea conditions associated with ports via the `HAS` relationship to ensure safe docking. | docking. |
 
