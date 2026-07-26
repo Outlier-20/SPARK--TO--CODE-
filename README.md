@@ -8,7 +8,7 @@ A centralized database schema designed to support **Oman's Vision 2040** digital
 
 | Initial Draft (Before Revisions) | Finalized ERD Model (Current) |
 | :---: | :---: |
-| <img src="Hormuz.jpg" width="100%" alt="Initial ERD Draft"> | <img src="vessel-tracking-erd.png" width="100%" alt="Final ERD Model"> |
+| <img src="Hormuz.png" width="100%" alt="Initial ERD Draft"> | <img src="vessel-tracking-erd.png" width="100%" alt="Final ERD Model"> |
 | *Note: Initial proposed design prior to structural attribute and cardinality fixes.* | *Note: Refined and optimized schema ready for database implementation.* |
 
 ---
